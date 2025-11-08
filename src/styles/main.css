@@ -197,11 +197,11 @@ body {
 }
 
 .fade-in {
-  animation: fade-in var(--fade-in-duration, 0.3s) forwards;
+  animation: fade-in var(--fade-in-duration, 0.35s) forwards;
 }
 
 .fade-out {
-  animation: fade-out var(--fade-out-duration, 0.3s) forwards;
+  animation: fade-out var(--fade-out-duration, 0.35s) forwards;
 }
 
 /* Search */

@@ -2,7 +2,7 @@
 
 main {
   --primary-default: 17, 187, 130;
-  --bg-default: 22, 22, 24;
+  --bg-default: 10, 10, 10;
   --color-prettylights-syntax-comment: #8b949e;
   --color-prettylights-syntax-constant: #79c0ff;
   --color-prettylights-syntax-entity: #d2a8ff;

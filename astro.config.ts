@@ -26,14 +26,12 @@ export default defineConfig({
   },
   image: {
     domains: SITE.imageDomains,
-    // https://docs.astro.build/en/guides/images/#responsive-image-behavior
-    // Used for all local (except `/public`) and authorized remote images using `![]()` syntax; not configurable per-image
-    // Used for all `<Image />` and `<Picture />` components unless overridden with `layout` prop
     layout: 'constrained',
     responsiveStyles: true,
   },
   vite: {
     server: {
+      host: true, // Add this line
       headers: {
         // Enable CORS for dev: allow Giscus iframe to load local styles
         'Access-Control-Allow-Origin': '*',
@@ -41,7 +39,6 @@ export default defineConfig({
     },
     build: { chunkSizeWarningLimit: 1200 },
   },
-  // https://docs.astro.build/en/reference/experimental-flags/
   experimental: {
     contentIntellisense: true,
     preserveScriptOrder: true,

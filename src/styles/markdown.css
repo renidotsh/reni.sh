@@ -4,9 +4,9 @@
 
 /* Prose Complement */
 .prose {
-  --fg-light: #888;
-  --fg: #555;
-  --fg-deep: #222;
+  --fg-light: #777;
+  --fg: #353535;
+  --fg-deep: #151515;
   --fg-deeper: var(--c-text);
 
   color: var(--fg);
@@ -33,7 +33,7 @@
 html.dark .prose {
   --fg-light: #888;
   --fg: #bbb;
-  --fg-deep: #ddd;
+  --fg-deep: #dadada;
   --fg-deeper: var(--c-text);
 }
 
@@ -108,8 +108,8 @@ html.dark .prose {
 /* Toc */
 .toc-desktop {
   position: fixed;
-  top: 8.875rem;
-  bottom: 0;
+  top: auto;
+  bottom: auto;
   left: 2.05rem;
 
   z-index: 100;
@@ -149,10 +149,11 @@ html.dark .prose {
   transition: all 700ms;
 }
 
+/* TOC active state opacity */
 .toc-desktop-on > ul,
 .prose:hover .toc-desktop-content > ul,
 .toc-desktop:hover > ul {
-  opacity: 0.6;
+  opacity: 0.75;
 }
 
 .toc-desktop ul > li::before,

@@ -27,6 +27,12 @@ export const UI: Ui = {
       text: 'Projects',
     },
     {
+        path: '/portfolio',
+        title: 'Portfolio',
+        displayMode: 'alwaysText',
+        text: 'Portfolio',
+    },
+    {
       path: '/resouces',
       title: 'Resources',
       displayMode: 'alwaysText',
@@ -142,7 +148,7 @@ export const FEATURES: Features = {
       minHeadingLevel: 2,
       maxHeadingLevel: 4,
       displayPosition: 'left',
-      displayMode: 'hover',
+      displayMode: 'always',
     },
   ],
   share: [
@@ -177,7 +183,7 @@ export const FEATURES: Features = {
   search: [
     true,
     {
-      includes: ['blog', 'changelog'],
+      includes: ['blog', 'changelog', 'resources', 'projects'],
       filter: true,
       navHighlight: true,
       batchLoadSize: [true, 5],

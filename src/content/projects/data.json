@@ -1,8 +1,8 @@
 [
   {
-    "id": "astro",
-    "link": "https://github.com/withastro/astro",
-    "desc": "The web framework for content-driven websites",
+    "id": "<title>",
+    "link": "https://github.com/renishdotdev",
+    "desc": "small description about the project",
     "icon": "i-devicon-astro",
     "category": "Astro Ecosystem"
   },

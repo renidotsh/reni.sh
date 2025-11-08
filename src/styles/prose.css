@@ -1,6 +1,6 @@
 .prose {
-  max-width: 90ch;
-  font-size: 1.1rem;
+  max-width: 100ch;
+  font-size: 1.2rem;
   line-height: 1.75;
 }
 .prose [class~='lead'] {
