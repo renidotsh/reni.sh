@@ -7,37 +7,43 @@ toc: true
 ogImage: true
 ---
 
-<div class="flex flex-wrap gap-4">
-  <a class="btn-rose" href="https://github.com/sponsors/lin-stephanie">
+<div class="flex flex-wrap gap-4 justify-center">
+  <a class="btn-purple" href="https://github.com/renishdotdev">
+    <span class="i-ph-github-logo"></span> GitHub</a>
+  <a class="btn-blue" href="https://linkedin.com/in/renishdotdev">
+    <span class="i-ph-linkedin-logo"></span> LinkedIn</a>
+  <a class="btn-orange" href="https://github.com/sponsors/lin-stephanie">
+    <span class="i-ph-envelope"></span> Mail</a>
+  <a class="btn-yellow" href="https://github.com/sponsors/lin-stephanie">
     <span class="i-ph-file-pdf"></span> Portfolio PDF</a>
+  <a class="btn-green" href="https://www.google.com/maps/place/Bengaluru, India/">
+    <span class="i-ph-map-pin"></span> Gandhinagar, India</a>
 </div>
-
-**Hello, I'm Renish**
 
 I'm a final year IT student at <a href="https://iiitvadodara.ac.in" target="_blank"> **IIIT Vadodara** </a> diving deep into **embedded systems**, **real-time systems** and **IoT**. I love building things that bridge hardware and software.
 
 ## Featured Projects
 
-**Smart Home System using ESP32** | `C++` `ESP32`| <a href="https://github.com/renipepper/smart-home" target="_blank"> <span class="i-simple-icons-github"></span></a>
+#### **Smart Home System using ESP32** | `C++` `ESP32`| <a href="https://github.com/renipepper/smart-home" target="_blank"> <span class="i-simple-icons-github"></span></a>
 - Developed a comprehensive smart home monitoring system with multiple ESP32 microcontrollers communicating over Wi-Fi. 
 - Features include gas detection (MQ-6), motion sensing (PIR), temperature/humidity monitoring (DHT), and SMS alerts via SIM800L for critical conditions.
 <a href="/projects/smart-home"> Learn More</a>
 
-**Outfit Recommender using custom siamese-network** | `PyTorch` `CNN` | <a href="https://github.com/renipepper/smart-home"> <span class="i-simple-icons-github"></span></a>
+#### **Outfit Recommender using custom siamese-network** | `PyTorch` `CNN` | <a href="https://github.com/renipepper/smart-home"> <span class="i-simple-icons-github"></</a>
 - Built an image-based outfit recommender using customized Siamese networks for visual similarity.
 - Incorporated color histogram analysis to enhance pattern matching and style recommendations across clothing items.
 <a href="/projects/smart-home"> Learn More</a>
 
-**Synced Pomodoro Timer** | `C++` `React` `Node.js` `MQTT` | <a href="https://github.com/renipepper/smart-home"> <span class="i-simple-icons-github"></span></a>
+#### **Synced Pomodoro Timer** | `C++` `React` `Node.js` `MQTT` | <a href="https://github.com/renipepper/smart-home"> <span class="i-simple-icons-github"></span></a>
 - Created a Pomodoro timer accessible via web and ESP32-based physical interface with real-time state synchronization using MQTT.
 - Enabled bi-directional control across both platforms.
 <a href="/projects/smart-home"> Learn More</a>
 
-**Movie Recommender** | `Python` `GAN` | <a href="https://github.com/renipepper/smart-home"> <span class="i-simple-icons-github"></span></a>
+#### **Movie Recommender** | `Python` `GAN` | <a href="https://github.com/renipepper/smart-home"> <span class="i-simple-icons-github"></span></a>
 - Implemented a modified GAN architecture with Collaborative Filtering for personalized content recommendations, achieving significant improvement over baseline models on benchmark datasets.
 <a href="/projects/smart-home"> Learn More</a>
 
-**Wireless Motion Mouse** | `C++` `ESP32` | <a href="https://github.com/renipepper/smart-home"> <span class="i-simple-icons-github"></span></a>
+#### **Wireless Motion Mouse** | `C++` `ESP32` | <a href="https://github.com/renipepper/smart-home"> <span class="i-simple-icons-github"></span></a>
 - Developed a Bluetooth-based wireless mouse using MPU6500 gyroscope for motion-based cursor control with hand gestures and real-time sensor data processing.
 <a href="/projects/smart-home"> Learn More</a>
 
@@ -57,10 +63,10 @@ I'm a final year IT student at <a href="https://iiitvadodara.ac.in" target="_bla
 
 ## Currently
 
-- 📚 Pursuing B.Tech in Information Technology at **IIIT Vadodara** (CGPA: 6.87/10)
-- 🎓 Completing **SAP Training Programme** in ML, DL & IoT (Oct 2024 - Mar 2025)
-- 🔨 Building projects that combine hardware and AI
-- 🌱 Learning more about sensor integration and predictive analytics
+- Pursuing B.Tech in Information Technology at **IIIT Vadodara** (CGPA: 6.87/10)
+- Completing **SAP Training Programme** in ML, DL & IoT (Oct 2024 - Mar 2025)
+- Building projects that combine hardware and AI
+- Learning more about sensor integration and predictive analytics
 
 ---
 
@@ -81,4 +87,4 @@ I'm a final year IT student at <a href="https://iiitvadodara.ac.in" target="_bla
 
 *Fluent in English, Tamil, Hindi, and Telugu | Proficient in Kannada*
 
-> Open to collaboration on embedded systems, IoT, and ML projects. Let's build something cool together! 🚀
+> Open to collaboration on embedded systems, IoT, and ML projects. Let's build something cool together! 

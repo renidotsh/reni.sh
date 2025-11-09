@@ -146,7 +146,7 @@ export const FEATURES: Features = {
     true,
     {
       minHeadingLevel: 2,
-      maxHeadingLevel: 4,
+      maxHeadingLevel: 3,
       displayPosition: 'left',
       displayMode: 'always',
     },
