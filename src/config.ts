@@ -3,7 +3,7 @@ import type { Site, Ui, Features } from './types'
 export const SITE: Site = {
   website: 'https://reni.sh/',
   base: '/',
-  title: 'Renish Ram',
+  title: 'Renish',
   description:
     'Personal Portfolio + Blogsite',
   author: 'Renish R',
@@ -67,18 +67,24 @@ export const UI: Ui = {
       displayMode: 'alwaysIcon',
       icon: 'i-uil-github-alt',
     },
-    {
-      link: 'https://x.com/renishdotdev',
-      title: 'Astro on Twitter',
-      displayMode: 'alwaysIcon',
-      icon: 'i-ri-twitter-x-fill',
-    },
-    {
-      link: 'https://bsky.app/profile/astro.build',
-      title: 'Astro on Bluesky',
-      displayMode: 'alwaysIcon',
-      icon: 'i-meteor-icons-bluesky',
-    },
+    // {
+    //   link: 'https://x.com/renishdotdev',
+    //   title: 'Astro on Twitter',
+    //   displayMode: 'alwaysIcon',
+    //   icon: 'i-ri-twitter-x-fill',
+    // },
+    // {
+    //   link: 'https://discord.com',
+    //   title: '@renidotsh on X',
+    //   displayMode: 'alwaysIcon',
+    //   icon: 'i-material-symbols:360',
+    // },
+    // {
+    //   link: 'https://bsky.app/reni.sh',
+    //   title: 'Bluesky',
+    //   displayMode: 'alwaysIcon',
+    //   icon: 'i-meteor-icons-bluesky',
+    // },
   ],
   navBarLayout: {
     left: [],
@@ -86,8 +92,8 @@ export const UI: Ui = {
       'internalNavs',
       'hr',
       'socialLinks',
-      'hr',
-      'rssLink',
+    //   'hr',
+    //   'rssLink',
       'themeButton',
       'hr',
       'searchButton',

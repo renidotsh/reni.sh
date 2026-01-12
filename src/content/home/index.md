@@ -1,84 +1,37 @@
-# Hello, I'm Renish
+# Hi, I am Renish
 
-I'm an IT student diving deep into **embedded systems** and .
+I am an Information Technology undergraduate at [IIIT Vadodara](https://iiitvadodara.ac.in), currently bridging the gap between hardware and software.
+
+While my academic background covers the full spectrum of Computer Science, my passion lies in **Embedded Systems** and **low-level programming**. I am a builder who enjoys understanding how things work from the bare metal up to the application layer.
+
+Check out my work portfolio here -> <a class="btn-yellow" href="/portfolio"> <span class="i-ph-user-duotone"></span> Full Portfolio</a>
+
+### My Engineering Stack
+
+I primarily work on **embedded systems**, focusing on performance and real-time constraints. My technical playground includes:
+
+* **Bare-Metal Development:** I enjoy the control of bare-metal C programming on [AVR](https://github.com/avrdudes/avr-libc) and [pico-series](https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html) boards.
+* **RTOS & Frameworks:** I build scalable IoT solutions using [ESP-IDF](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/index.html) for the ESP32 (utilizing [FreeRTOS](https://www.freertos.org/)) and [STM32Cube](https://www.st.com/en/development-tools/stm32cubeide.html) with VSCode for STM32 microcontrollers. [cite: 2]
+* **Hardware-Software Integration:** My projects range from creating Bluetooth-based wireless mice using **MPU6500** sensors to developing synced Pomodoro timers that communicate via MQTT.
+* I occasionally perform **web development** in [React]() and [Astro]() for dashboards and static pages.
+
+Check out my projects here -> <a class="btn-rose" href="/projects"> <span class="i-ph-code-duotone"></span> Projects</a>
 
 
+### Systems & Security
 
+I am deep in the rabbit hole of **self-hosting** and the **GNU/Linux** ecosystem.
 
-- Zero UI Framework
-- [SEO-Friendly](./blog/faqs-and-known-issues/#about-seo-and-accessibility)
-- [Auto-Generated RSS Feed](./blog/faqs-and-known-issues/#rss-subscription-scope)
-- [Dynamic OG Image Generation](./blog/about-open-graph-images/)
-- [Subpath Deployment](./blog/basic-configuration/#configuring-site) Support
-- Optimized and Responsive Images
-- VS Code Snippets for Fast Coding
-- [Well-Structured Project](./blog/project-structure/)
-- High [Lighthouse Performance](./blog/faqs-and-known-issues/#lighthouse-scores)
+* **Daily Drivers:** I currently daily-drive [Pop!_OS](https://system76.com/pop) and [Debian](https://debian.org).
+* **Infrastructure:** I manage my own self-hosted services, which has naturally led me to learn **computer networking** and **cybersecurity** practices to keep my home lab secure.
+* **Cybersecurity:** I spend some of my free time learning security fundamentals to solidify in the domain.
 
-**Content Management**
+### My other interests
 
-- Markdown & MDX Support
-- [Math Equations Rendering](./blog/faqs-and-known-issues/#choosing-a-math-rendering-engine)
-- [Callouts (Alerts/Admonitions)](./blog/markdown-mdx-extended-features/#callouts-alerts--admonitions)
-- [Code Syntax Highlighting & Annotations](./blog/markdown-mdx-extended-features/#fully-featured-code-blocks)
-- Ready-To-Use [Remark Directives](./blog/markdown-mdx-extended-features/#image-caption--link-image)
-- Customizable Layouts, Views, and Navigation
-- [Configurable Animated Backgrounds](./blog/faqs-and-known-issues/#page-backgrounds) (Take a look around!)
-- [Showcase Your GitHub Releases and PRs](./blog/customizing-github-activity-pages)
-- [Highlight Your Creative Work or Curated Posts](./blog/recreating-current-pages/#highlights)
-- [Share Your Short Notes or Quick Thoughts](./blog/recreating-current-pages/#shorts)
-- [Create Your Personal Gallery](./blog/recreating-current-pages/#photos)
-
-**User Experience**
-
-- Responsive Layout
-- Full-Platform TOC Support
-- Light & Dark Modes Toggle
-- Smooth View Transitions
-- Loading Progress Indicator
-- [Search Functionality](./blog/faqs-and-known-issues/#search-functionality)
-- [Image Zoom Preview](./blog/faqs-and-known-issues/#image-zoom)
-- Social Media Sharing
-- [Integrated Giscus Comments](./blog/advanced-configuration/#configure-giscus-comments)
-- [Accessibility Enhancements](./blog/faqs-and-known-issues/#about-seo-and-accessibility)
-- Keyboard-Friendly
-
-> [More features](https://github.com/users/lin-stephanie/projects/4) are continuously being added! 🚀
+* I love cooking and exploring new culinary techniques and cuisines—it’s just chemistry with better taste testing.
+* I am an amateur [Geoguessr](https://geoguessr.com) player which naturally brought my interest travelling the world and understanding global geography.
+* I am a huge [Age of Empires 2](https://www.ageofempires.com/games/aoeiide/) fan. While I'm not into playing games, I enjoy watching pro streams alot.
+* I occasionally write blogs of my favourite topics. Check them out here ->
+  <a class="btn-yellow" href="/blog"> <span class="i-ph-book-duotone"></span> Blogs</a>
 
 ---
-
-<p>
-  Visit the theme's
-  <a
-    class="inline-block ml-1.5 op-75"
-    href="https://github.com/lin-stephanie/astro-antfustyle-theme"
-  >
-  <span i-simple-icons-github></span> GitHub repo</a>
-</p>
-
-<p>
-  <span class="inline-block mr-1.5 mb-2">Find me on</span>
-  <span class="inline-flex flex-wrap gap-2 op-75">
-    <a href="https://github.com/lin-stephanie/astro-antfustyle-theme">
-      <span i-simple-icons-github></span> GitHub</a>
-    <a href="https://github.com/lin-stephanie/astro-antfustyle-theme">
-      <span i-ri-twitter-x-fill></span> Twitter</a>
-    <a href="https://github.com/lin-stephanie/astro-antfustyle-theme">
-      <span i-simple-icons-instagram></span> Instagram</a>
-    <a href="https://github.com/lin-stephanie/astro-antfustyle-theme">
-      <span i-simple-icons-mastodon></span> Mastodon</a>
-    <a href="https://github.com/lin-stephanie/astro-antfustyle-theme">
-      <span i-simple-icons-youtube></span> YouTube</a>
-  </span>
-</p>
-
----
-
-If you find this theme helpful, consider supporting the project maintainer or the style designer. Your support means more than you know. Thank you! ❤️
-
-<div class="flex flex-wrap gap-4">
-  <a class="btn-rose" href="https://github.com/sponsors/lin-stephanie">
-    <span class="i-ph-heart-duotone"></span> Support Stephanie Lin (Maintainer)</a>
-  <a class="btn-yellow" href="https://github.com/sponsors/antfu">
-    <span class="i-ph-lightning-duotone"></span> Support Anthony Fu (Designer)</a>
-</div>
