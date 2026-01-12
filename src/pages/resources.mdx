@@ -1,10 +1,10 @@
 ---
-title: 'Hello, I am Renish'
-subtitle: ''
-description: ''
+title: Renish R
+subtitle: A curated showcase of my works.
+description: A curated showcase of projects and case studies.
 bgType: plum
 toc: false
-ogImage: false
+ogImage: true
 ---
 
 import BaseLayout from '~/layouts/BaseLayout.astro'
@@ -17,10 +17,14 @@ import RenderPage from '~/components/views/RenderPage.astro'
   bgType={frontmatter.bgType}
   ogImage={frontmatter.ogImage}
 >
-  <StandardLayout title={frontmatter.title} subtitle={frontmatter.subtitle} isCentered={true}>
+  <StandardLayout
+    class="max-w-300"
+    title={frontmatter.title}
+    isCentered={true}
+  >
     <RenderPage
       slot="article"
-      collectionType="home"
+      collectionType="resources"
       id="index"
       pageToc={frontmatter.toc}
     />

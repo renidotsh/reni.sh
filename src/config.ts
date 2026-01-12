@@ -20,12 +20,12 @@ export const UI: Ui = {
       displayMode: 'alwaysText',
       text: 'Blog',
     },
-    {
-      path: '/projects',
-      title: 'Projects',
-      displayMode: 'alwaysText',
-      text: 'Projects',
-    },
+    // {
+    //   path: '/projects',
+    //   title: 'Projects',
+    //   displayMode: 'alwaysText',
+    //   text: 'Projects',
+    // },
     {
         path: '/portfolio',
         title: 'Portfolio',
@@ -33,7 +33,7 @@ export const UI: Ui = {
         text: 'Portfolio',
     },
     {
-      path: '/resouces',
+      path: '/resources',
       title: 'Resources',
       displayMode: 'alwaysText',
       text: 'Resources',
