@@ -15,7 +15,7 @@ ogImage: true
   <a class="btn-orange" href="mailto:mail@reni.sh">
     <span class="i-ph-envelope"></span> Mail</a>
   <a class="btn-yellow" href="/resume.pdf">
-    <span class="i-ph-file-pdf"></span> Resume PDF</a>
+    <span class="i-ph-file-pdf"></span> Portfolio PDF</a>
   <a class="btn-green">
     <span class="i-ph-map-pin"></span> Namakkal, India</a>
 </div>
@@ -24,12 +24,22 @@ I'm a final year IT student at <a href="https://iiitvadodara.ac.in" target="_bla
 
 ## Experience
 
-#### **Embedded Systems Training Intern** | `EasyShiksha` | *May 2025 – July 2025* 
+#### **Embedded Systems Training Intern** | `EasyShiksha` | May 2025 – July 2025 
 - Developed real-time embedded applications using **Embedded C**, focusing on switch debouncing, hardware timeouts, and multi-state systems.
 - Designed and implemented an **intruder alarm** and **data acquisition systems** using RS-232 serial interfaces.
 - Gained deep architectural knowledge of the **8051 microcontroller**, including memory management, interrupts, and I/O interfacing.
 
+#### **ML, DL & IoT Training** | `SAP CodeUnnati` `Edunet` | Oct 2024 - Mar 2025
+- Participated in applied workshops on **IoT device integration**, **ML in real-life scenarios**, and **SAP system basics**.
+- Collected and managed sensor data, feeding it into **ML models** for analysis and predictive insights.
+
+
 ## Featured Projects
+
+#### **Perishable Goods Management** | `ESP32` `Raspberry Pi` `JS` | <a href="https://github.com/renidotsh" target="_blank"> <span class="i-simple-icons-github"></span></a>
+- Designed an IoT architecture using **ESP32s** with multi-zone sensor arrays to monitor temperature, humidity, and environmental factors across transport containers.
+- Implemented an **edge computing** solution on Raspberry Pi running an ML model for real-time freshness prediction, enabling offline functionality without network connectivity.
+<a href="/projects/perishable-goods"> Learn More</a>
 
 #### **Wireless Motion Mouse** | `C++` `ESP32` `MPU6500` | <a href="https://github.com/renidotsh" target="_blank"> <span class="i-simple-icons-github"></span></a>
 - Developed a Bluetooth-based wireless mouse using an **MPU6500 gyroscope** mounted on the hand.
@@ -51,15 +61,14 @@ I'm a final year IT student at <a href="https://iiitvadodara.ac.in" target="_bla
 - Utilized a **twin-input architecture** and incorporated color histograms to learn pattern and style similarities across clothing items.
 <a href="/projects/outfit-recommender"> Learn More</a>
 
-<a href="/projects"> View all projects</a>
+<!-- <a href="/projects"> View all projects</a> -->
 
 ## Certifications
 
-- **Industry 4.0 and Industrial Internet of Things (NPTEL)** | *Dec 2025*
-  - **Elite+Gold Certification** (Score: 93%, Topper 2%).
-- **ML, DL & IoT Training (SAP Sponsored)** | *CodeUnnati Edunet* | *Oct 2024 - Mar 2025*
-  - Worked on collecting sensor data and feeding it into ML models for predictive insights.
-
+1. **Industry 4.0 and Industrial Internet of Things (NPTEL)** | *Dec 2025*
+   - **Elite+Gold Certification** (Score: 93%, Topper 2%).
+2. **ML, DL & IoT Training (SAP Sponsored)** | *CodeUnnati Edunet* | *Oct 2024 - Mar 2025*
+  
 ## Tech Stack
 
 **Languages:** C, C++, Python, JavaScript, Lua, Bash 
