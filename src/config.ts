@@ -3,9 +3,9 @@ import type { Site, Ui, Features } from './types'
 export const SITE: Site = {
   website: 'https://reni.sh/',
   base: '/',
-  title: 'Renish',
+  title: 'reni.sh',
   description:
-    'Personal Portfolio + Blogsite',
+    'Personal Blogsite',
   author: 'Renish R',
   lang: 'en',
   ogLocale: 'en_US',
@@ -20,12 +20,12 @@ export const UI: Ui = {
       displayMode: 'alwaysText',
       text: 'Blog',
     },
-    // {
-    //   path: '/projects',
-    //   title: 'Projects',
-    //   displayMode: 'alwaysText',
-    //   text: 'Projects',
-    // },
+    {
+      path: '/projects',
+      title: 'Projects',
+      displayMode: 'alwaysText',
+      text: 'Projects',
+    },
     {
         path: '/portfolio',
         title: 'Portfolio',

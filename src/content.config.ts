@@ -9,7 +9,7 @@ import { blueskyPostsLoader } from 'astro-loader-bluesky-posts'
 import {
   pageSchema,
   postSchema,
-//   projectSchema,
+  projectSchema,
   streamSchema,
   photoSchema,
 } from '~/content/schema'
@@ -38,10 +38,10 @@ const blog = defineCollection({
   schema: postSchema,
 })
 
-// const projects = defineCollection({
-//   loader: file('./src/content/projects/data.json'),
-//   schema: projectSchema,
-// })
+const projects = defineCollection({
+  loader: file('./src/content/projects/data.json'),
+  schema: projectSchema,
+})
 
 const releases = defineCollection({
   loader: githubReleasesLoader({
@@ -119,7 +119,7 @@ export const collections = {
   home,
   portfolio,
   blog,
-//   projects,
+  projects,
   resources,
   releases,
   prs,

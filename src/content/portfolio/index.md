@@ -14,7 +14,7 @@ ogImage: true
     <span class="i-ph-linkedin-logo"></span> LinkedIn</a>
   <a class="btn-orange" href="mailto:mail@reni.sh">
     <span class="i-ph-envelope"></span> Mail</a>
-  <a class="btn-yellow" href="/resume.pdf">
+  <a class="btn-yellow" href="/resume_iot.pdf">
     <span class="i-ph-file-pdf"></span> Portfolio PDF</a>
   <a class="btn-green">
     <span class="i-ph-map-pin"></span> Namakkal, India</a>
@@ -36,17 +36,23 @@ I'm a final year IT student at <a href="https://iiitvadodara.ac.in" target="_bla
 
 ## Featured Projects
 
-#### **Perishable Goods Management** | `ESP32` `Raspberry Pi` `JS` | <a href="https://github.com/renidotsh" target="_blank"> <span class="i-simple-icons-github"></span></a>
+#### **Perishable Goods Management** | `ESP32` `Raspberry Pi` `JS` | <a href="https://github.com/renidotsh/perishable-goods-mgmt" target="_blank"> <span class="i-simple-icons-github"></span></a>
 - Designed an IoT architecture using **ESP32s** with multi-zone sensor arrays to monitor temperature, humidity, and environmental factors across transport containers.
 - Implemented an **edge computing** solution on Raspberry Pi running an ML model for real-time freshness prediction, enabling offline functionality without network connectivity.
 <a href="/projects/perishable-goods"> Learn More</a>
+
+#### **CFGAN based Movie Recommender** | `GANs` `Collaborative Filtering` | <a href="https://github.com/renidotsh/recsys-cfgan" target="_blank"> <span class="i-simple-icons-github"></span></a>
+- Developed a hybrid recommendation framework that integrates **Collaborative Filtering** with **Generative Adversarial Networks (GANs)** to mitigate data sparsity and cold-start issues.
+- Implemented an adversarial architecture where a **Generator** creates synthetic user-item interaction vectors while a **Discriminator** learns to distinguish them from real purchase data.
+- Utilized **Matrix Factorization** and similarity measures like **MSD** and **Cosine Similarity** to uncover latent features and improve the diversity of personalized content.
+<a href="/projects/movie-recommender"> Learn More</a>
 
 #### **Wireless Motion Mouse** | `C++` `ESP32` `MPU6500` | <a href="https://github.com/renidotsh" target="_blank"> <span class="i-simple-icons-github"></span></a>
 - Developed a Bluetooth-based wireless mouse using an **MPU6500 gyroscope** mounted on the hand.
 - Enabled motion-based cursor control and button clicks by processing real-time sensor data on the ESP32.
 <a href="/projects/wireless-mouse"> Learn More</a>
 
-#### **Synced Pomodoro Timer** | `C++` `React` `MQTT` | <a href="https://github.com/renidotsh" target="_blank"> <span class="i-simple-icons-github"></span></a>
+#### **Synced Pomodoro Timer** | `C++` `React` `MQTT` | <a href="https://github.com/renidotsh/pomo-synced" target="_blank"> <span class="i-simple-icons-github"></span></a>
 - Created a productivity timer accessible via both a web dashboard and a physical ESP32 interface.
 - Implemented **bidirectional control**; the timer can be started/stopped from either interface with state synchronization via **MQTT**.
 <a href="/projects/pomodoro"> Learn More</a>
@@ -56,7 +62,7 @@ I'm a final year IT student at <a href="https://iiitvadodara.ac.in" target="_bla
 - Integrated a custom **Web UI dashboard** for real-time monitoring of sensors located in different physical areas.
 <a href="/projects/smart-home"> Learn More</a>
 
-#### **Outfit Recommender** | `PyTorch` `Siamese CNN` | <a href="https://github.com/renidotsh" target="_blank"> <span class="i-simple-icons-github"></span></a>
+#### **Outfit Recommender using siamese CNN** | `PyTorch` `Siamese Networks` `CNN` | <a href="https://github.com/Prashant-Bharti/CNN-Based-Complementary-Fashion-Outfit-Recommendation-System/" target="_blank"> <span class="i-simple-icons-github"></span></a>
 - Built an image-based recommender using **Siamese networks** and **CNNs** to analyze visual similarity.
 - Utilized a **twin-input architecture** and incorporated color histograms to learn pattern and style similarities across clothing items.
 <a href="/projects/outfit-recommender"> Learn More</a>

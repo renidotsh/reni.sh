@@ -12,9 +12,10 @@ I primarily work on **embedded systems**, focusing on performance and real-time 
 * **RTOS & Frameworks:** I build scalable IoT solutions using [ESP-IDF](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/index.html) for the ESP32 (utilizing [FreeRTOS](https://www.freertos.org/)) and [STM32Cube](https://www.st.com/en/development-tools/stm32cubeide.html) with VSCode for STM32 microcontrollers.
 * **Hardware-Software Integration:** My projects range from creating Bluetooth-based wireless mice using **MPU6500** sensors to developing synced Pomodoro timers that communicate via MQTT.
 * I occasionally perform **web development** in [React]() and [Astro]() for dashboards and static pages.
-* I currently daily-drive [Pop!_OS](https://system76.com/pop) on my PC and [Debian](https://debian.org)/[Fedora](https://fedoraproject.org/) on my VMs.
-* **Infrastructure:** I manage my own self-hosted services, which has naturally led me to learn **computer networking** and **cybersecurity** practices to keep my home lab secure.
-* **Cybersecurity:** I spend some of my free time learning security fundamentals to solidify in the domain.
+* I currently daily-drive [Pop!_OS](https://system76.com/pop) on my PC and [Debian](https://debian.org)/[Fedora](https://fedoraproject.org/) for my VMs.
+* I manage my own self-hosted services, which has naturally led me to learn **linux**, **computer networking** and **cybersecurity** practices to keep my home lab private & secure.
+* I am also really comfortable with **Systems Engineering** and **Server Management**, particularly when it comes to hardening Linux environments and configuring services from the ground up.
+* I also spend some of my free time learning security fundamentals to solidify in the domain.
 
 <!-- Check out my projects here -> <a class="btn-rose" href="/projects"> <span class="i-ph-code-duotone"></span> Projects</a> -->
 
