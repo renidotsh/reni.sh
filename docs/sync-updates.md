@@ -1,12 +1,12 @@
 ---
-title: <main blog title>
-description: <metadata description>
+title: Sync Updates
+description: How to sync your project with the latest version of the Astro AntfuStyle Theme
 pubDate: 2021-06-06
 lastModDate: ''
 ogImage: true
 toc: true
 share: true
-giscus: false
+giscus: true
 search: true
 ---
 

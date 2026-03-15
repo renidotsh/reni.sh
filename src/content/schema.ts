@@ -174,34 +174,4 @@ export const photoSchema = z.object({
 
 export type PhotoSchema = z.infer<typeof photoSchema>
 
-/* Stremas */
-export const streamSchema = z.object({
-  id: z.string().describe('**Required**. Sets the stream title.'),
-  pubDate: z.coerce
-    .date()
-    .describe(
-      '**Required**. Specifies the publication date. See supported formats [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/parse#examples).'
-    ),
-  link: z
-    .string()
-    .url('Invalid url.')
-    .describe('**Required**. Specifies the URL link to the stream.'),
-  radio: z
-    .boolean()
-    .default(false)
-    .describe(
-      'Indicates whether the stream is a radio broadcast. If `true`, an icon will be added to the stream item in the list.'
-    ),
-  video: z
-    .boolean()
-    .default(false)
-    .describe(
-      'Indicates whether the stream is a video broadcast. If `true`, an icon will be added to the stream item in the list.'
-    ),
-  platform: z
-    .string()
-    .default('')
-    .describe('Specifies the platform where the stream is published.'),
-})
 
-export type StreamSchema = z.infer<typeof streamSchema>

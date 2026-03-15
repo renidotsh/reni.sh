@@ -12,6 +12,10 @@ import { SITE } from './src/config'
 export default defineConfig({
   site: SITE.website,
   base: SITE.base,
+  redirects: {
+    // '/name': 'https://url',
+    '/site': 'https://github.com/renidotsh',
+  },
   integrations: [
     sitemap(),
     robotsTxt(),

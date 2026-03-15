@@ -18,7 +18,7 @@ import type {
   ResponsiveSocialItem,
 } from './src/types'
 
-const { internalNavs, socialLinks, githubView } = UI
+const { internalNavs, socialLinks } = UI
 const navIcons = internalNavs
   .filter(
     (item) =>
@@ -36,16 +36,7 @@ const socialIcons = socialLinks
 
 const projectIcons = projecstData.map((item) => item.icon)
 
-const githubVersionColor: Record<string, string> = {
-  major: 'bg-rose/15 text-rose-7 dark:text-rose-3',
-  minor: 'bg-purple/15 text-purple-7 dark:text-purple-3',
-  patch: 'bg-green/15 text-green-7 dark:text-green-3',
-  pre: 'bg-teal/15 text-teal-7 dark:text-teal-3',
-}
-const githubVersionClass = Object.keys(githubVersionColor).map(
-  (k) => `github-${k}`
-)
-const githubSubLogos = githubView.subLogoMatches.map((item) => item[1])
+
 
 export default defineConfig({
   // Astro 5 no longer pipes `src/content/**/*.{md,mdx}` through Vite
@@ -83,10 +74,6 @@ export default defineConfig({
       /^btn-(\w+)$/,
       ([_, color]) =>
         `px-2.5 py-1 border border-[#8884]! rounded op-50 transition-all duration-200 ease-out no-underline! hover:(op-100 text-${color} bg-${color}/10)`,
-    ],
-    [
-      /^github-(major|minor|patch|pre)$/,
-      ([, version]) => `rounded ${githubVersionColor[version]}`,
     ],
   ],
 
@@ -132,9 +119,7 @@ export default defineConfig({
     'focus:top-1.5',
     'focus:op-20',
 
-    /* GithubItem */
-    ...githubVersionClass,
-    ...githubSubLogos,
+
 
     /* Toc */
     'i-ri-menu-2-fill',

@@ -1,0 +1,25 @@
+// PROJECT TEMPLATE
+// ================
+// Projects are stored in src/content/projects/data.json as a JSON array.
+// To add a new project, add an object like this to the array:
+//
+// {
+//   "id": "Project Name",
+//   "link": "https://github.com/your-username/your-project",
+//   "desc": "A short description of what this project does",
+//   "icon": "i-devicon-astro",
+//   "category": "Category Name"
+// }
+//
+// FIELDS:
+//   id       - Project name displayed on the page (required)
+//   link     - URL to the project repo or page (required, must be valid URL)
+//   desc     - Short description (required)
+//   icon     - UnoCSS icon class (required). Format: i-<collection>-<icon>
+//              Browse icons at: https://icones.js.org/
+//              Examples: i-devicon-c, i-devicon-rust, i-logos-react, i-skill-icons-arduino
+//   category - Group heading (required). Projects with the same category are grouped together.
+//
+// TIPS:
+//   - Multiple projects can share the same category
+//   - Categories are displayed as group headings on the /projects page

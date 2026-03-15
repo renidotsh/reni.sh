@@ -1,9 +1,6 @@
 ---
-import { getCollection } from 'astro:content'
-
 import CardItem from '~/components/views/CardItem.astro'
 import Warning from '~/components/base/Warning.astro'
-import { processBlueskyPosts, getShortsFromBlog } from '~/utils/data'
 
 import type { CollectionKey } from 'astro:content'
 import type { CardItemData } from '~/components/views/CardItem.astro'
@@ -17,7 +14,7 @@ interface Props {
 }
 
 const {
-  collectionType,
+  collectionType: _collectionType,
   mode,
   gap = 16,
   minCardWidth,
@@ -30,20 +27,6 @@ const WARNING = `No content available for display.
 let isEmpty = false
 let dataForMasonry: CardItemData[] = []
 let dataForGrid: CardItemData[] = []
-
-if (collectionType === 'highlights') {
-  const highlights = await getCollection(collectionType)
-  dataForMasonry = processBlueskyPosts(highlights).sort((a, b) =>
-    !a.date || !b.date
-      ? 0
-      : new Date(b.date).valueOf() - new Date(a.date).valueOf()
-  )
-}
-
-if (collectionType === ('shorts' as CollectionKey)) {
-  const posts = await getCollection('blog')
-  dataForGrid = await getShortsFromBlog(posts)
-}
 
 if (dataForMasonry.length === 0 && dataForGrid.length === 0) isEmpty = true
 ---

@@ -1,0 +1,33 @@
+// PHOTO TEMPLATE
+// ==============
+// Photos are stored in src/content/photos/data.json as a JSON array.
+// To add a new photo, add an object like this to the array:
+//
+// LOCAL IMAGE:
+// {
+//   "id": "my-photo",
+//   "desc": "Description of the photo"
+// }
+// Then place the image file (e.g., my-photo.webp) in src/content/photos/
+//
+// SUBDIRECTORY IMAGE:
+// {
+//   "id": "vacation/beach",
+//   "desc": "Beach sunset"
+// }
+// Then place the image at src/content/photos/vacation/beach.webp
+//
+// EXTERNAL IMAGE:
+// {
+//   "id": "https://images.unsplash.com/photo-xxxxxxx",
+//   "desc": "Description of the photo"
+// }
+//
+// FIELDS:
+//   id   - Filename (without extension) for local images, or full URL for external (required)
+//   desc - Caption shown on hover (optional, defaults to empty)
+//
+// TIPS:
+//   - Use .webp format for best performance
+//   - For external images, add the domain to SITE.imageDomains in src/config.ts
+//   - Photos appear in the order they are listed in the array
