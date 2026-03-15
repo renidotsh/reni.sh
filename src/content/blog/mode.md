@@ -8,17 +8,8 @@ toc: true
 share: true
 giscus: true
 ogImage: true
-draft: true
+draft: false
 ---
-
-<!-- 
-  TEMPLATE: Duplicate this file and rename it to create a new blog post.
-  - The filename becomes the URL slug (e.g., my-first-post.md -> /blog/my-first-post)
-  - Set `draft: false` when ready to publish
-  - `pubDate` format: YYYY-MM-DD
-  - `title` is limited to 60 characters
-  - Delete this comment block when done
--->
 
 ## Introduction
 
