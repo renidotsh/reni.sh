@@ -28,12 +28,9 @@ if (collectionType === 'projects') {
   const projects = await getCollection(collectionType)
   isEmpty = projects.length === 0
 
-  data = projects
-    .map((p) => p.data)
-    .reduce((acc: Record<string, GroupItemData[]>, { category, ...rest }) => {
-      ;(acc[category] ??= []).push(rest)
-      return acc
-    }, {})
+  data = {
+    '': projects.map((p) => p.data),
+  }
 }
 
 /* Toc */
@@ -48,7 +45,7 @@ const tocEnabled = Array.isArray(toc) && toc[0] && pageToc
     <>
       {tocEnabled && (
         <Toc
-          anchors={Object.keys(data)}
+          anchors={Object.keys(data).filter(Boolean)}
           style={
             toc[1].displayPosition === 'right' ? 'right: -5rem' : undefined
           }
@@ -56,7 +53,7 @@ const tocEnabled = Array.isArray(toc) && toc[0] && pageToc
       )}
       {Object.keys(data).map((key, idx) => (
         <div class="slide-enter" style={{ '--enter-stage': idx }}>
-          <Categorizer text={key} needId={tocEnabled} wide={true} />
+          {key && <Categorizer text={key} needId={tocEnabled} wide={true} />}
           <GroupItem items={data[key]} />
         </div>
       ))}

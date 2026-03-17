@@ -1,9 +1,44 @@
 [
-  {
-    "id": "Work in Progress",
-    "link": "https://reni.sh",
-    "desc": "work in progress",
-    "icon": "i-devicon-astro",
-    "category": "WIP"
-  }
+    {
+        "id": "all-about-avr",
+        "link": "https://github.com/renidotsh/all-about-avr",
+        "desc": "A complete guide to bare-metal C programming for AVR architecture",
+        "icon": "i-devicon-arduino",
+        "category": "avr" 
+    },
+    {
+        "id": "avr-libs",
+        "link": "https://github.com/renidotsh/avr-libs",
+        "desc": "Collection of single-file libraries for AVR C bare-metal programming",
+        "icon": "i-devicon-arduino",
+        "category": "avr"
+    },
+    {
+        "id": "Perishable Goods Management",
+        "link": "https://github.com/renidotsh/perishable-goods-mgmt",
+        "desc": "An end-to-end solution for managing perishable goods during transit.",
+        "icon": "i-devicon-astro",
+        "category": "esp32" 
+    },
+    {
+        "id": "pomo-synced",
+        "link": "https://github.com/renidotsh/pomo-synced",
+        "desc": "A pomodoro timer app with both web-UI and an ESP32 physical interface",
+        "icon": "i-noto-tomato",
+        "category": "esp32" 
+    },
+    {
+        "id": "cfsh",
+        "link": "https://github.com/cfsh",
+        "desc": "Bash script to create & manage Cloudflare tunnels",
+        "icon": "i-devicon-cloudflare",
+        "category": "bash"
+    },
+    {
+        "id": "pshell-to",
+        "link": "https://github.com/renidotsh/pshell-to",
+        "desc": "A powershell script to manage custom aliases for directories to navigate quicker",
+        "icon": "i-devicon-powershell",
+        "category": "powershell"
+    }
 ]
