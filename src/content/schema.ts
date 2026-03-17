@@ -167,7 +167,7 @@ export const photoSchema = z.object({
   id: z
     .string()
     .describe(
-      '**Required**. File (name/path) of the image in the `src/content/photos/` directory or a remote image URL.'
+      '**Required**. File (name/path) of the image in the `src/content/pics/` directory or a remote image URL.'
     ),
   desc: z.string().default('').describe('Optional description for the image.'),
 })

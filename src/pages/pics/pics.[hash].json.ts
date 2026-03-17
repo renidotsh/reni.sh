@@ -12,7 +12,7 @@ import {
 
 import type { APIRoute } from 'astro'
 
-const CACHE_PATH = './node_modules/.astro/photos/'
+const CACHE_PATH = './node_modules/.astro/pics/'
 const PLACEHOLDER_PIXEL_TARGET = 100
 // balance high pixel density and file size
 const THUMBNAIL_WIDTH = 720
@@ -27,7 +27,7 @@ export interface PhotoItem {
 }
 
 const VERSION = 1
-const photos = (await getCollection('photos')).map((p) => ({
+const photos = (await getCollection('pics')).map((p) => ({
   id: p.data.id,
   desc: p.data.desc,
 }))
@@ -40,7 +40,7 @@ export const hash = crypto
 
 const data: PhotoItem[] = []
 const localImages = import.meta.glob<{ default: ImageMetadata }>(
-  '/src/content/photos/**/*.{jpg,jpeg,png,webp,avif}'
+  '/src/content/pics/**/*.{jpg,jpeg,png,webp,avif}'
 )
 const localImageKeys = Object.keys(localImages)
 // if (import.meta.env.DEV) console.log(localImageKeys)
@@ -75,7 +75,7 @@ for (const photo of photos) {
     // get placeholder
     const remoteImage = await fetchRemoteImageWithSharp(id)
     if (!remoteImage.isImage) {
-      console.warn(`[photos.${hash}.json.ts] Skipping invalid image: ${id}`)
+      console.warn(`[pics.${hash}.json.ts] Skipping invalid image: ${id}`)
       continue
     }
     const placeholder = await generatePlaceholder(
@@ -112,7 +112,7 @@ for (const photo of photos) {
   // match id with local image path
   const localImagePath = localImageKeys.find((path) => path.includes(id))
   if (!localImagePath) {
-    console.warn(`[photos.${hash}.json.ts] Skipping invalid image: ${id}`)
+    console.warn(`[pics.${hash}.json.ts] Skipping invalid image: ${id}`)
     continue
   }
 

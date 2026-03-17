@@ -4,10 +4,9 @@ export async function GET() {
   // https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Manifest
   const manifest = {
     id: withBasePath('/'),
-    name: 'Astro AntfuStyle Theme',
-    short_name: 'AntfuStyle',
-    description:
-      'A customizable, feature-rich Astro theme for blog and portfolio',
+    name: 'reni.sh',
+    short_name: 'reni.sh',
+    description: 'Personal blog and portfolio of Renish R',
     icons: [
       {
         src: withBasePath('icon-192.png'),

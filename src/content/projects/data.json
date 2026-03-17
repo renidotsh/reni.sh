@@ -40,5 +40,12 @@
         "desc": "A powershell script to manage custom aliases for directories to navigate quicker",
         "icon": "i-devicon-powershell",
         "category": "powershell"
+    },
+    {
+        "id": "cfgan-recommender",
+        "link": "https://github.com/renidotsh/recsys-cfgan",
+        "desc": "Implementation of a custom GAN model with collaborative filtering.",
+        "icon": "i-devicon-pytorch",
+        "category": "Deep Learning"
     }
 ]

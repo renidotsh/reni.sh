@@ -1,26 +1,26 @@
-// PHOTO TEMPLATE
+// PIC TEMPLATE
 // ==============
-// Photos are stored in src/content/photos/data.json as a JSON array.
-// To add a new photo, add an object like this to the array:
+// Pics are stored in src/content/pics/data.json as a JSON array.
+// To add a new pic, add an object like this to the array:
 //
 // LOCAL IMAGE:
 // {
-//   "id": "my-photo",
-//   "desc": "Description of the photo"
+//   "id": "my-pic",
+//   "desc": "Description of the pic"
 // }
-// Then place the image file (e.g., my-photo.webp) in src/content/photos/
+// Then place the image file (e.g., my-pic.webp) in src/content/pics/
 //
 // SUBDIRECTORY IMAGE:
 // {
 //   "id": "vacation/beach",
 //   "desc": "Beach sunset"
 // }
-// Then place the image at src/content/photos/vacation/beach.webp
+// Then place the image at src/content/pics/vacation/beach.webp
 //
 // EXTERNAL IMAGE:
 // {
 //   "id": "https://images.unsplash.com/photo-xxxxxxx",
-//   "desc": "Description of the photo"
+//   "desc": "Description of the pic"
 // }
 //
 // FIELDS:
@@ -30,4 +30,4 @@
 // TIPS:
 //   - Use .webp format for best performance
 //   - For external images, add the domain to SITE.imageDomains in src/config.ts
-//   - Photos appear in the order they are listed in the array
+//   - Pics appear in the order they are listed in the array

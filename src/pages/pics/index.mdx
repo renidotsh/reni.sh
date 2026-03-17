@@ -1,7 +1,7 @@
 ---
-title: Photos
-subtitle: Create your personal gallery (photos below from Unsplash)
-description: Create your personal gallery (photos below from Unsplash)
+title: Pics
+subtitle: Snaps and Shots
+description: A casual collection of pics I've taken over time.
 bgType: false
 toc: false
 ogImage: false
@@ -9,7 +9,7 @@ ogImage: false
 
 import BaseLayout from '~/layouts/BaseLayout.astro'
 import StandardLayout from '~/layouts/StandardLayout.astro'
-import PhotoView from '~/components/views/PhotoView.astro'
+import PicView from '~/components/views/PicView.astro'
 
 <BaseLayout
   title={frontmatter.title}
@@ -22,6 +22,6 @@ import PhotoView from '~/components/views/PhotoView.astro'
     subtitle={frontmatter.subtitle}
     isCentered={true}
   >
-    <PhotoView />
+    <PicView />
   </StandardLayout>
 </BaseLayout>

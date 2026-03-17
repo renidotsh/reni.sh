@@ -39,10 +39,10 @@ export const UI: Ui = {
             text: 'Resources',
         },
         {
-            path: '/photos',
-            title: 'Photos',
+            path: '/pics',
+            title: 'Pics',
             displayMode: 'iconToTextOnMobile',
-            text: 'Photos',
+            text: 'Pics',
             icon: 'i-ri-camera-ai-line',
         },
 

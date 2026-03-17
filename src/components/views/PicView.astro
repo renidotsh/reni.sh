@@ -2,7 +2,7 @@
 import Loader from '~/components/widgets/Loader.astro'
 import ImageViewer from '~/components/widgets/ImageViewer.astro'
 
-import { hash } from '~/pages/photos/photos.[hash].json'
+import { hash } from '~/pages/pics/pics.[hash].json'
 
 interface Props {
   gap?: number
@@ -56,7 +56,7 @@ const {
 </div>
 
 <script>
-  import type { PhotoItem } from '~/pages/photos/photos.[hash].json'
+  import type { PhotoItem } from '~/pages/pics/pics.[hash].json'
 
   class PhotoView extends HTMLElement {
     #initialized = false
@@ -139,7 +139,7 @@ const {
 
     #fetchData = async () => {
       try {
-        const res = await fetch(`/photos/photos.${this.dataset.hash}.json`)
+        const res = await fetch(`/pics/pics.${this.dataset.hash}.json`)
         const [_v, data] = (await res.json()) as [string, PhotoItem[]]
         this.#allItems = data
         // if (import.meta.env.DEV) console.log(this.#allItems)

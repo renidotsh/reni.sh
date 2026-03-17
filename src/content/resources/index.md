@@ -1,6 +1,6 @@
 ---
 title: Resources
-subtitle: A showcase of my engineering projects and experience.
+subtitle: ''
 description: Sorry, this page is being change right now
 bgType: plum
 toc: true

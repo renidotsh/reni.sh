@@ -37,8 +37,8 @@ const projects = defineCollection({
   schema: projectSchema,
 })
 
-const photos = defineCollection({
-  loader: file('src/content/photos/data.json'),
+const pics = defineCollection({
+  loader: file('src/content/pics/data.json'),
   schema: photoSchema,
 })
 
@@ -49,5 +49,5 @@ export const collections = {
   blog,
   projects,
   resources,
-  photos,
+  pics,
 }
